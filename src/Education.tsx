@@ -7,12 +7,12 @@ const educationData = [
     university: "Lovely Professional University",
     date: "2022 - present",
     description:
-      "Specialized in Full-Stack Web Development and Distributed Systems. Focused on designing scalable and performant applications.",
+      "Specialized in Data Science and Distributed Data Systems. Focused on designing scalable and high-performance analytics solutions that transform data into actionable insights.",
   },
   {
     id: "2",
     degree: "XII Standard",
-    university: "+2 High School Atka",
+    university: "Sanyasi Sr. Sec. School",
     date: "2020 - 2022",
     description:
       "Completed Higher Secondary Education with a focus on Science and Mathematics. Built a strong foundation in analytical and problem-solving skills.",
@@ -20,7 +20,7 @@ const educationData = [
   {
     id: "3",
     degree: "X Standard",
-    university: "High School Atka",
+    university: "Dev Rishi Vidya Niketan",
     date: "2019 - 2020",
     description:
       "Completed Secondary Education with a focus on core subjects including Science, Mathematics, and English. Developed a strong academic foundation.",

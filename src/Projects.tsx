@@ -8,54 +8,33 @@ import { ArrowRight, Github } from "lucide-react";
 const projectsData = [
   {
     id: "1",
-    title: "YouTube Backend System",
+    title: "Prime Palindrome Number:",
     description:
-      "Developed a scalable backend for a YouTube-like platform featuring video uploads, streaming, subscriptions, likes, and comment system with proper authentication.",
-    technologies: ["Node.js", "Express.js", "MongoDB", "JWT", "Multer", "Cloudinary"],
+      "Developed a Python program to check whether a given number is both a prime and a palindrome.A prime number is only divisible by 1 and itself.A palindromic number reads the same backward as forward (e.g., 131, 16361).The program combines logic for prime checking and string reversal to identify numbers that meet both conditions.",
     imageUrl: "youtube.png",
-    liveUrl: "#",
-    codeUrl: "https://github.com/Pawan-kumar47129/Youtube-Backend",
+    technologies: ["Python", "Tkinter", "Algorithms"],
+    // liveUrl: "#",
   },
   {
     id: "2",
-    title: "Blog App (MERN Stack)",
+    title: "Book Management System",
     description:
-      "A full-stack blogging application allowing users to register, create blog posts, edit/delete content, and interact via comments with authentication and role-based access.",
-    technologies: ["MongoDB", "Express.js", "React", "Node.js", "JWT", "Tailwind CSS"],
+      "This System was created with the help of file management system and C as a coding language,   In this, We can add new book, check the books which are present, remove the books and at last, can withdraw.",
+      technologies: ["C", "File Handling", "Procedural Programming", "Command Line Interface"],
     imageUrl: "blog.png",
     liveUrl: "#",
-    codeUrl: "https://github.com/Pawan-kumar47129/BlogApp",
+    
   },
   {
     id: "3",
-    title: "Real-Time Chat App",
+    title: "Netflix Dashboard",
     description:
-      "Built a real-time chat application supporting one-on-one messaging, group chats, and user presence tracking using WebSockets.",
-    technologies: ["React", "Node.js", "Socket.IO", "Express.js", "MongoDB"],
-    imageUrl: "chat.png",
+      "Created an interactive dashboard to analyze Netflix's content library using data visualization tools. The dashboard displays insights like: Distribution of movies vs. TV shows,Most common ratings and genres,Year-wise content growth,Country-wise content availability,Detailed info on selected titles",
+    technologies: ["Total movies & TV shows by country","Distribution of content types","Ratings analysis","Top genres","Year-wise trends"],
+    imageUrl: "Netflix.png",
     liveUrl: "#",
-    codeUrl: "https://github.com/Pawan-kumar47129/chatty",
-  },
-  {
-    id: "4",
-    title: "Room Booking Website",
-    description:
-      "A hotel/room booking system where users can browse available rooms, select check-in/out dates, and book with secure authentication and payment.",
-    technologies: ["React", "Node.js", "Express.js", "MongoDB", "JWT", "Razorpay"],
-    imageUrl: "room.png",
-    liveUrl: "#",
-    codeUrl: "https://github.com/Pawan-kumar47129/Listing",
-  },
-  {
-    id: "5",
-    title: "Movie Website",
-    description:
-      "A full-featured movie website where users can explore movies, view trailers, book showtimes, and select seats in a dynamic UI.",
-    technologies: ["React", "Node.js", "Express.js", "MongoDB", "JWT", "Razorpay"],
-    imageUrl: "movie.png",
-    liveUrl: "#",
-    codeUrl: "https://github.com/Pawan-kumar47129/MovieApp",
-  },
+
+  }
 ];
 const Projects = () => {
   return (
@@ -123,7 +102,7 @@ const Projects = () => {
                       className="bg-gradient-to-r from-purple-500/10 to-blue-500/10 text-gray-800 border-purple-500/30 hover:border-purple-500/50 hover:from-purple-500/20 hover:to-blue-500/20 dark:bg-gradient-to-r dark:from-purple-500/20 dark:to-blue-500/20 dark:text-white dark:border-purple-500/30 dark:hover:border-purple-500/50 dark:hover:from-purple-500/30 dark:hover:to-blue-500/30"
                     >
                       <a
-                        href={project.codeUrl}
+                        // href={project.codeUrl}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center gap-2"

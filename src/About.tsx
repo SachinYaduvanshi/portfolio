@@ -5,7 +5,7 @@ import { Download, Mail } from "lucide-react";
 
 const About = () => {
   // Replace with your actual resume file path
-  const resumeUrl = "General12205836.pdf";
+  const resumeUrl = "Sachincvu.pdf";
 
   return (
     <section
@@ -27,15 +27,15 @@ const About = () => {
           >
             <div className="relative rounded-lg overflow-hidden shadow-lg border border-gray-300 dark:border-gray-800">
               <img
-                src="pawanphoto.jpg" // Replace with your image
-                alt="Pawan Kumar"
+                src="WhatsApp Image 2025-04-24 at 17.27.21_4ca06a67.jpg" // Replace with your image
+                alt="Sachin"
                 className="w-full h-auto object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t to-transparent dark:from-black/70"></div>
               <div className="absolute bottom-4 left-4 text-gray-800 dark:text-white">
-                <h3 className="text-xl font-semibold text-white">Pawan Kumar</h3>
+                <h3 className="text-xl font-semibold text-white">Sachin</h3>
                 <p className="text-sm text-white dark:text-gray-300">
-                  Full-Stack Software Engineer
+                  Data Scientist
                 </p>
               </div>
             </div>
@@ -50,14 +50,11 @@ const About = () => {
             className="md:w-2/3 space-y-4 sm:space-y-6 text-gray-600 dark:text-gray-300"
           >
             <p className="text-lg sm:text-xl">
-              Hello! I'm Pawan Kumar, a passionate and results-oriented
-              Full-Stack Software Engineer with a strong track record of
-              designing, developing, and deploying dynamic web applications from
-              the ground up. I thrive on solving complex problems and crafting
+              Hello! I'm Sachin, a passionate and results-oriented
+              Data Science Engineer.I have worked upon various visualization tools such as excel,tableau and currently i am working on power bi . 
+              I thrive on solving complex problems and crafting
               scalable, efficient, and user-friendly solutions that make a real
-              impact. With hands-on expertise in both frontend and backend
-              technologies, I bring a well-rounded, end-to-end approach to every
-              project I take on.
+              impact. I have learned python,c,c++,r and java programing languages.
             </p>
             <p className="text-lg sm:text-xl">
               Committed to writing clean, maintainable code and following

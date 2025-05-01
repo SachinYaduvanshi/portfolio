@@ -17,32 +17,32 @@ const Contact = () => {
               <div className="flex items-center gap-4 justify-center lg:justify-start">
                 <Mail className="w-6 h-6 text-purple-500 dark:text-purple-400" />
                 <a
-                  href="mailto:pawankumar825251@gmail.com"
+                  href="mailto:sy5457287@gmail.com"
                   className="text-blue-600 hover:text-blue-500 dark:text-blue-400 dark:hover:text-blue-300 transition-colors text-lg sm:text-xl"
                 >
-                  pawankumar825251@gmail.com
+                  sy5457287@gmail.com
                 </a>
               </div>
               <div className="flex items-center gap-4 justify-center lg:justify-start">
                 <Linkedin className="w-6 h-6 text-purple-500 dark:text-purple-400" />
                 <a
-                  href="https://www.linkedin.com/in/pawan-kumar47129"
+                  href="https://www.linkedin.com/in/sachin-yaduvanshi-765531252/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-600 hover:text-blue-500 dark:text-blue-400 dark:hover:text-blue-300 transition-colors text-lg sm:text-xl"
                 >
-                  linkedin.com/in/pawan-kumar47129
+                  https://www.linkedin.com/in/sachin-yaduvanshi-765531252/
                 </a>
               </div>
               <div className="flex items-center gap-4 justify-center lg:justify-start">
                 <Github className="w-6 h-6 text-purple-500 dark:text-purple-400" />
                 <a
-                  href="https://github.com/Pawan-kumar47129"
+                  href="https://github.com/SachinYaduvanshi"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-600 hover:text-blue-500 dark:text-blue-400 dark:hover:text-blue-300 transition-colors text-lg sm:text-xl"
                 >
-                  github.com/Pawan-kumar47129
+                  https://github.com/SachinYaduvanshi
                 </a>
               </div>
             </div>

@@ -17,7 +17,7 @@ const Hero = () => {
                 transition={{ duration: 0.8, ease: "easeInOut" }}
                 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-teal-400 dark:from-teal-400 dark:to-blue-500 mb-4 sm:mb-6"
             >
-                Hi, I&apos;m <span className="text-gray-800 dark:text-white">Pawan Kumar</span>
+                Hi, I&apos;m <span className="text-gray-800 dark:text-white">Sachin</span>
             </motion.h1>
 
             {/* Subheading */}
@@ -29,10 +29,9 @@ const Hero = () => {
             >
                 I&apos;m a{" "}
                 <span className="font-semibold text-blue-500 dark:text-teal-300">
-                    Full-Stack Software Engineer
+                    Data Scientist
                 </span>{" "}
-                specializing in designing and building scalable, high-performance web
-                applications. Let&apos;s create something amazing together!
+                specializing in visualization tools excel, tableau and power bi. Let&apos;s create something amazing together!
             </motion.p>
 
             {/* Buttons */}

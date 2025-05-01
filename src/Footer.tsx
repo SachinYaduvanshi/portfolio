@@ -7,13 +7,13 @@ const Footer = () => {
             <div className="container mx-auto px-4 text-center">
                 {/* Footer Text */}
                 <p className="text-sm mb-4">
-                    &copy; {new Date().getFullYear()} Pawan Kumar. All rights reserved.
+                    &copy; {new Date().getFullYear()} Sachin. All rights reserved.
                 </p>
 
                 {/* Social Links */}
                 <div className="flex justify-center space-x-6">
                     <a
-                        href="https://github.com/Pawan-kumar47129"
+                        href="https://github.com/SachinYaduvanshi"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-gray-600 hover:text-purple-400 dark:text-gray-600 dark:hover:text-purple-500 transition-colors"
@@ -22,7 +22,7 @@ const Footer = () => {
                         <Github className="w-6 h-6" />
                     </a>
                     <a
-                        href="https://www.linkedin.com/in/pawan-kumar47129"
+                        href="https://www.linkedin.com/in/sachin-yaduvanshi-765531252/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-gray-600 hover:text-purple-400 dark:text-gray-600 dark:hover:text-purple-500 transition-colors"
@@ -31,7 +31,7 @@ const Footer = () => {
                         <Linkedin className="w-6 h-6" />
                     </a>
                     <a
-                        href="mailto:pawankumar825251@gmail.com"
+                        href="mailto:sy5457287@gmail.com"
                         className="text-gray-600 hover:text-purple-400 dark:text-gray-600 dark:hover:text-purple-500 transition-colors"
                         aria-label="Email"
                     >

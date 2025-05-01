@@ -4,19 +4,19 @@ import { Badge } from "./components/ui/badge";
 const certificationData = [
   {
     id: "1",
-    title: "Web Development",
+    title: "Data Analysis with Tableau",
     organization: "Coursera",
     date: "2024",
     description:
-      "Gained in-depth knowledge of HTML, CSS, and JavaScript, including responsive design principles, DOM manipulation, and modern ES6+ features. Successfully completed a project-based certification program.",
-    technologies: ["HTML", "CSS","JavaScript"],
+      "Gained in-depth knowledge of Tableau by working upon different datasets. Successfully completed a project-based certification program.",
+    technologies: ["Tableau", "Data Visualization", "Dashboard Design", "Storytelling with Data"],
     imageUrl: "web.png",
   },
   {
     id: "2",
     title: "Data Structure and Algorithm",
-    organization: "Coursera",
-    date: "2024",
+    organization: "Udemy",
+    date: "2023",
     description:
       "Developed a strong understanding of data structures and algorithms, focusing on problem-solving techniques, time complexity, and optimization strategies.",
     technologies: ["Algorithms", "Data Structures", "Problem Solving", "Optimization"],
@@ -25,12 +25,12 @@ const certificationData = [
   
   {
     id: "3",
-    title: "Backend Development Certification",
-    organization: "PhysicsWallah",
-    date: "2024",
+    title: "Programming in c++:A hands on introduction",
+    organization: "Coursera",
+    date: "2023",
     description:
-      "Completed a comprehensive program covering  backend development, including  JavaScript, Node.js, and MongoDB.",
-    technologies: [ "JavaScript", "Node.js","Express.js", "MongoDB"],
+      "Completed a hands-on introductory course in C++ programming, focusing on core concepts such as variables, control structures, functions, arrays, and object-oriented programming using classes.",
+      technologies: ["C++", "Object-Oriented Programming", "Functions", "Control Structures", "Arrays"],
     imageUrl: "backend.png",
   },
 ];

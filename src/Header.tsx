@@ -34,7 +34,7 @@ const Header = () => {
                 {/* Logo */}
                 <h1 className="text-lg sm:text-xl font-bold">
                     <a href="#home" className="hover:text-purple-400 dark:hover:text-purple-500">
-                        Pawan Kumar
+                        Sachin
                     </a>
                 </h1>
 
